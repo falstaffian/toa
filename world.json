@@ -1,0 +1,89 @@
+{
+  "name": "toa",
+  "title": "Tomb of Annihilation",
+  "description": "<h3>Foundry Enhancements:</h3>\n<ul>\n<li>Rotating Map Tokens to represent spinning room features.</li>\n<li>Players&rsquo; map of Chult with revealable areas that become unveiled as the party explores this vast new land.</li>\n<li>Interactive player puzzles.</li>\n<li>Rollable Tables for all shapeshifters, and Rollable Tables and Macro Options for all random encounters.</li>\n</ul>\n<p>&nbsp;</p>\n<h3>Product Information</h3>\n<blockquote>\n<ul>\n<li>System:&nbsp;<strong>D&amp;D 5E (Forgotten Realms)</strong></li>\n<li>Starting Level:&nbsp;<strong>Low (1)</strong></li>\n<li>Length:&nbsp;<strong>Long Campaign</strong></li>\n</ul>\n</blockquote>\n<p>&nbsp;</p>\n<hr />\n<p><strong>DISCLAIMER:</strong>&nbsp;The use of this is meant for use for your personal use, and only if you legally possess such in accordance with your local laws.</p>",
+  "version": "0.1.2",
+  "minimumCoreVersion": "0.6.0",
+  "compatibleCoreVersion": "0.7.0",
+  "scripts": [
+    "./toa/checkdependencies.js"
+  ],
+  "esmodules": [],
+  "styles": [],
+  "packs": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "authors": [
+    "WotC",
+    "Roll20",
+    "5eTools",
+    "R20Converter"
+  ],
+  "keywords": [
+    "adventure",
+    "campaign",
+    "forgotten realms",
+    "content packs"
+  ],
+  "socket": false,
+  "url": "",
+  "manifest": "https://foundry.5e.tools/plutonium/toa/world.json",
+  "download": "https://foundry.5e.tools/plutonium/toa/toa.zip",
+  "license": "",
+  "readme": "README.md",
+  "bugs": "",
+  "changelog": "https://wiki.5e.tools/index.php/Foundry:Changelog_Adventures",
+  "coreVersion": "0.7.9",
+  "dependencies": [
+    {
+      "name": "plutonium",
+      "manifest": "https://get.5e.tools/plutonium/module.json",
+      "version": "1.7.0",
+      "author": "Giddy"
+    },
+    {
+      "name": "DancingLights",
+      "manifest": "https://raw.githubusercontent.com/BlitzKraig/fvtt-DancingLights/master/module.json",
+      "version": "2.1.5",
+      "author": "Blitzkraig"
+    },
+    {
+      "name": "multilevel-tokens",
+      "manifest": "https://raw.githubusercontent.com/grandseiken/foundryvtt-multilevel-tokens/v0.3.0/module.json",
+      "version": "0.4.0",
+      "author": "grandseiken"
+    },
+    {
+      "name": "parallaxia",
+      "manifest": "https://gitlab.com/reichler/parallaxia/raw/master/parallaxia/module.json",
+      "version": "0.2.9",
+      "author": "wonko"
+    },
+    {
+      "name": "teleport",
+      "manifest": "https://raw.githubusercontent.com/knassher/FVTT-Teleport/master/module.json",
+      "version": "2.1.7",
+      "author": "knassher"
+    },
+    {
+      "name": "Token HUD Wildcard",
+      "manifest": "https://raw.githubusercontent.com/javieros105/FVTT-TokenHUDWildcard/master/token-hud-wildcard/module.json",
+      "version": "1.0.0",
+      "author": "javieros"
+    }
+  ],
+  "id": "toa",
+  "system": "dnd5e",
+  "systemVersion": "1.2.3",
+  "minimumSystemVersion": "0.90",
+  "compatibleSystemVersion": "0.96",
+  "unavailable": false,
+  "availability": 0,
+  "background": "",
+  "nextSession": "1970-01-01T00:00:00.000Z"
+}
